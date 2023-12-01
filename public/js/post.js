@@ -12,7 +12,6 @@ const newFormHandler = async (event) => {
     });
     if (response.ok) {
       document.location.replace(`/post/${post_id}`);
-      alert('added new comment');
     } else {
       alert('Failed to add comment');
     }
@@ -29,7 +28,6 @@ const delButtonHandler = async (event) => {
 
   if (response.ok) {
     document.location.replace('/');
-    alert('post deleted');
   } else {
     alert('Failed to delete post');
   }
@@ -50,7 +48,6 @@ const updateButtonHandler = async (event) => {
 
   if (response.ok) {
     document.location.replace(`/post/${post_id}`);
-    alert('post updated');
   } else {
     alert('Failed to update post');
   }

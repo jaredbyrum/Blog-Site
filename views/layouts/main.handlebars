@@ -16,7 +16,6 @@
         <a href="/">Tech Blog</a>
       </h1>
       <nav>
-        <!-- Conditionally render login or logout links -->
         {{#if logged_in}}
         <a href="/profile">Profile</a> |
         <button class="no-button" id="logout">Logout</button>
@@ -33,7 +32,6 @@
     </footer>
   </div>
 
-  <!-- Render script for logged in users only -->
   {{#if logged_in}}
   <script src="/js/logout.js"></script>
   {{/if}}
