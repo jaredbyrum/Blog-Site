@@ -1,0 +1,14 @@
+[
+  {
+    "name": "MVC",
+    "description": "MVC helps with sperating work flows in a project. With the Model for the database structure, Views for the page layouts, and Controller or the routes to control the pages."
+  },
+  {
+    "name": "ORM",
+    "description": "ORM or Object Relational Mapping allows us to associate our objects in a way that allows us to associate and organize them in a way that allows us to sort data in an organized way."
+  },
+  {
+    "name": "JQuery",
+    "description": "Jquery is a way to manipulate and adjust DOM elements on the fly using JavaScript and make interactive applications. Though being reaplceed by newer alternitives still serves a valuable purpose."   
+  }
+]
